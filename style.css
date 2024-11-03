@@ -1,32 +1,39 @@
-body{
+body {
+    font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
-}
-form{
-    width: 400px;
+  }
+  
+  form {
+    width: 300px;
     display: flex;
     flex-direction: column;
-}
-
-label{
+  }
+  
+  label {
     margin-top: 10px;
-    font-weight: 800;
-}
-input{
+    font-weight: bold;
+  }
+  
+  input {
     padding: 8px;
-    margin-top: 6px;
-}
-
-button{
+    margin-top: 5px;
+  }
+  
+  button {
     margin-top: 20px;
     padding: 10px;
-    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
     border: none;
-}
-.error-message{
+    cursor: pointer;
+  }
+  
+  .error-message {
     color: red;
-    font-size: 1rem;
-    margin-top: 5px;
-}
+    font-size: 12px;
+    margin-top: 3px;
+  }
+  
