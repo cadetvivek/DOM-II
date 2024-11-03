@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-section, .controls {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+  }
+  
+  .graphs {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+  }
+  
+  .graph-container {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30px;
+    background-color: #4CAF50;
+  }
+  
+  .bar p {
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: center;
+  }
+  
